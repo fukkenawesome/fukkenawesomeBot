@@ -1,5 +1,5 @@
 {
-  "name": "electron-quick-start-typescript",
+  "name": "fukkenawesome_bot",
   "version": "1.0.0",
   "description": "A minimal Electron application written with Typescript",
   "scripts": {
@@ -7,14 +7,10 @@
     "lint": "tslint -c tslint.json -p tsconfig.json",
     "start": "npm run build && electron ./dist/main.js"
   },
-  "repository": "https://github.com/electron/electron-quick-start-typescript",
+  "repository": "https://github.com/mrbigballs/fukkenawesomeBot.git",
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo",
-    "typescript"
+    "Twitch.tv",
+    "Chat Bot"
   ],
   "author": "GitHub",
   "license": "CC0-1.0",
@@ -22,5 +18,8 @@
     "electron": "^1.7.8",
     "tslint": "^5.7.0",
     "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "tmi.js": "^1.2.1"
   }
 }

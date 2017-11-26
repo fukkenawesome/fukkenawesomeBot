@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <h1>Hello World!</h1>
@@ -10,10 +11,15 @@
     We are using Node.js <script>document.write(process.versions.node)</script>,
     Chromium <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>
+    <section>
+      <div id="messages"></div>
+      <input id="chat-input" type="text" placeholder="say anything" autofocus/>
+    </section>
   </body>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script>
     // You can also require other files to run in this process
+   
     require('./dist/renderer.js')
   </script>
 </html>
